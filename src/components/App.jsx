@@ -1,4 +1,4 @@
-export const App = (props) => {
+export const App = ( ) => {
   return (
     <div
       style={{
