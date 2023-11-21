@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  align-items: center;
+  border: 1px solid grey;
+  min-width: 200px;
+}
+.status {
+  display: block;
+}
+
+.status::before {
+  content: '123';
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: green;
+  color: red;
+}
+
+.avatar {
+  display: block;
+  max-width: 100%;
+}
+
+.name {
+  font-weight: bold;
+  text-align: center;
+}
