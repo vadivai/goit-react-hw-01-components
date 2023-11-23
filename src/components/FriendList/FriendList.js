@@ -15,13 +15,13 @@ export const FriendList = ({ friends }) => (
   </ul>
 );
 
-// FriendList.propTypes = {
-//   friends: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       id: PropTypes.number,
-//       name: PropTypes.string,
-//       avatar: PropTypes.string,
-//       isOnline: PropTypes.bool,
-//     })
-//   ),
-// };
+FriendList.propTypes = {
+  friends: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      name: PropTypes.string,
+      avatar: PropTypes.string,
+      isOnline: PropTypes.bool,
+    })
+  ),
+};
